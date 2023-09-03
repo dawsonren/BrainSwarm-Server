@@ -3,7 +3,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors'); // Import the cors module
 
-const ALLOWED_URL = 'http://localhost:3000'
+const ALLOWED_URL = 'https://brain-swarm.vercel.app'
 
 const app = express();
 const server = http.createServer(app);
